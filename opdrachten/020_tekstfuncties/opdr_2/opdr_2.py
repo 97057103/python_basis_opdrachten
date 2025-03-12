@@ -1,9 +1,9 @@
-# Opdracht 1
-# Naam student:
-# Groep:
+# Opdracht 2
+# Naam student: Jan Willem Sjoer
+# Groep:IT2A
 
 # Hier komt je code...
 
-my_list = ...
+letter_t = "T" * 10
+print(letter_t)
 
-print()
