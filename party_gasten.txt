@@ -1,3 +1,12 @@
 ---
 je: Paardenworst met Juc de range
 
+---
+je: chips
+
+---
+voornaam: Piet
+achternaam: Henk
+drank: Wijn
+eten: Pindas
+

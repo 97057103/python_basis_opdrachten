@@ -5,11 +5,12 @@
 
 # Party enquete
 # Vragenlijst
+# Vragenlijst
 vragen = [
-    "Wat is je voornaam?",
-    "Wat is je achternaam?",
-    "Wat neem je mee aan drank?",
-    "Wat neem je mee om te eten?"
+    ("voornaam", "Wat is je voornaam?"),
+    ("achternaam", "Wat is je achternaam?"),
+    ("drank", "Wat neem je mee aan drank?"),
+    ("eten", "Wat neem je mee om te eten?")
 ]
 
 # Opslagbestand
@@ -18,9 +19,8 @@ bestand_naam = "party_gasten.txt"
 # Open bestand om antwoorden op te slaan
 with open(bestand_naam, "a", encoding="utf-8") as bestand:
     feestganger = {}
-    for i, vraag in enumerate(vragen, start=1):
-        antwoord = input(f"{i}. {vraag} \n")
-        sleutel = vraag.split()[2].lower()  # Pak het sleutelwoord (voornaam, achternaam, etc.)
+    for sleutel, vraag in vragen:
+        antwoord = input(f"{vraag} \n")
         feestganger[sleutel] = antwoord
     
     # Opslaan in bestand
