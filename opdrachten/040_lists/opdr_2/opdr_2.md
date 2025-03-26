@@ -19,6 +19,8 @@ rivier_info = {
 }
 
 rivieren = list(rivier_info.keys())
+
+print ()
 # rivieren is nu een list met alleen de riviernamen: ['rijn', 'maas', 'nijl']
 
 ```
@@ -48,4 +50,4 @@ Zowel land als rivier beginnen met een hoofdletter
 Output:  
 
 >De rivier Nijl stroomt onder andere door Oeganda
-
+hhh

@@ -15,7 +15,5 @@ Print de lijst gesorteerd in omgekeerde volgorde, dus woorden die met een z begi
 Stel je vraagt de gebruiker om steden in te vullen:
 > Amsterdam, Zwolle, Dronten, Haarlem, Zaanstad
 
-```python
 #output
-["Zwole", "Zaanstad", "Haarlem", "Dronten", "Amsterdam"]
-```
+["Zwolle", "Zaanstad", "Haarlem", "Dronten", "Amsterdam"]
