@@ -1,20 +1,17 @@
 # Opdracht 1 functies
-# Naam student:
-# Groep:
+# Naam student: Jan Willem Sjoer
+# Groep:IT2A
 
 
 def kubus_vol(m):
-    # je code komt hier
-    # het woordje pass hieronder kun je weghalen
-    pass
-
+    return m * m * m
+    
 def bol_vol(r):
-    # je code komt hier
-    # het woordje pass hieronder kun je weghalen
-    pass
+    return (4 / 3) * 3.14 * r * r * r 
+    
 
-zijde = 5
-radius = 4
 
-print(kubus_vol(5))
-print(bol_vol(4))
+print (kubus_vol(5))
+print (bol_vol(4))
+
+ #De inhoud van deze bol is: 268.082573106329 
